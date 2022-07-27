@@ -22,7 +22,7 @@ export const MuiSelect = () => {
         helperText='Please select your country'
         value={countries}
         onChange={handleChange}>
-        <MenuItem value='IN'>India</MenuItem>
+        <MenuItem value='CA'>Canada</MenuItem>
         <MenuItem value='US'>USA</MenuItem>
         <MenuItem value='AU'>Australia</MenuItem>
       </TextField>
