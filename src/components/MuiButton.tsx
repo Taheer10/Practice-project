@@ -5,6 +5,8 @@ import FormatItalicIcon from '@mui/icons-material/FormatItalic';
 import FormatUnderlinedIconfrom from '@mui/icons-material/FormatUnderlined';
 import {useState} from 'react';
 
+ /* Button allows to add button with variation like outline,text and color  etc */
+ /* Stack allows to add spacing direction  etc */
 
 
 export const MuiButton = () => {
