@@ -1,15 +1,17 @@
 
 import './App.css';
+import { MuiRating } from './components/MuiRating';
 import { MuiSwitch } from './components/MuiSwitch';
-// import { MuiCheckbox } from './components/MuiCheckbox';
+
 
 
 function App() {
   return (
     <div className="App">
      
-      {/* <MuiCheckbox/> */}
-      <MuiSwitch/>
+    
+      {/* <MuiSwitch/> */}
+      <MuiRating/>
 
     </div>
   );
