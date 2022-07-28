@@ -1,18 +1,15 @@
 
 import './App.css';
-import { MuiAutocomplete } from './components/MuiAutoComplete';
-import { MuiLayoutBox } from './components/MuiLayoutBox';
-import { MuiStack } from './components/MuiStack';
+
+import { MuiCard } from './components/MuiCard';
+
 
 
 
 function App() {
   return (
     <div className="App">
-     {/* <MuiLayoutBox/> */}
-      <MuiStack/>
- 
-        {/* <MuiAutocomplete/> */}
+      <MuiCard/>
     </div>
   );
 }
